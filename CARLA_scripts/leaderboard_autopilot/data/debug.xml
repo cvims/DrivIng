@@ -1,0 +1,23 @@
+<routes>
+   <route id="0" town="Town01">
+      <waypoints>
+         <position x="62.008923" y="330.567841" z="0.000000"/>
+         <position x="92.418236" y="317.299683" z="0.000000"/>
+      </waypoints>
+      <weathers>
+        <weather route_percentage="0"
+            cloudiness="50.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0"
+            wind_intensity="0.0" sun_azimuth_angle="0.0" sun_altitude_angle="70.0" fog_density="0.0"/>
+         <weather route_percentage="100"
+            cloudiness="50.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0"
+            wind_intensity="0.0" sun_azimuth_angle="0.0" sun_altitude_angle="70.0" fog_density="0.0"/>
+    </weathers>
+      <scenarios>
+         <scenario type="NatualPedestrian" name="NatualPedestrian_1">
+            <trigger_point x="63.44" y="330.72" z="0.0" yaw="0.0"/>
+            <spawn_radius value="100"/>
+            <num_walkers value="100"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

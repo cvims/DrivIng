@@ -1,0 +1,38 @@
+<routes>
+    <route id="0" town="Grid0828">
+		<weathers>
+			<weather route_percentage="0" cloudiness="50.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="0.0" sun_azimuth_angle="0.0" sun_altitude_angle="70.0" fog_density="0.0" />
+			<weather route_percentage="100" cloudiness="50.0" precipitation="0.0" precipitation_deposits="0.0" wetness="0.0" wind_intensity="0.0" sun_azimuth_angle="0.0" sun_altitude_angle="70.0" fog_density="0.0" />
+		</weathers>
+		<waypoints>
+			<position x="839.8" y="-935.8" z="371.1" />
+			<position x="835.0" y="-937.4" z="371.1" />
+			<position x="830.3" y="-939.0" z="371.1" />
+			<position x="825.6" y="-940.7" z="371.0" />
+			<position x="821.0" y="-942.4" z="371.0" />
+			<position x="816.5" y="-944.2" z="371.0" />
+			<position x="812.0" y="-946.3" z="371.0" />
+			<position x="807.7" y="-948.6" z="371.0" />
+			<position x="803.6" y="-951.2" z="371.0" />
+			<position x="799.7" y="-954.0" z="371.0" />
+			<position x="796.0" y="-957.1" z="371.0" />
+			<position x="792.6" y="-960.5" z="371.0" />
+			<position x="789.6" y="-964.3" z="370.9" />
+			<position x="787.1" y="-968.3" z="370.9" />
+			<position x="784.9" y="-972.6" z="370.9" />
+			<position x="783.1" y="-977.1" z="370.9" />
+			<position x="781.7" y="-981.7" z="370.8" />
+			<position x="780.6" y="-986.4" z="370.8" />
+			<position x="779.7" y="-991.3" z="370.8" />
+			<position x="779.1" y="-996.2" z="370.7" />
+			<position x="778.8" y="-1001.2" z="370.7" />
+		</waypoints>
+		<scenarios>
+			<scenario name="NatualPedestrian_0" type="NatualPedestrian">
+				<trigger_point x="837.9" y="-936.4" z="371.1" yaw="-161.6" />
+				<spawn_radius value="100" />
+				<num_walkers value="20" />
+			</scenario>
+		</scenarios>
+	</route>
+</routes>

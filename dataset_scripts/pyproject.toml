@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "driving_dataset_scripts"
+version = "0.1.0"
+description = "Package containing some basic methods to work with the DrivIng dataset."
+authors = [{ name = "Dominik Roessle" }]

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<scenarios>
+    <scenario name="ConstructionObstacle_1" type="ConstructionObstacle" town="Town13">
+        <ego_vehicle x="6591.4" y="4249.1" z="172.7" yaw="-178.8" model="vehicle.lincoln.mkz_2017"/>
+        <distance value="70"/>
+        <speed value="50"/>
+    </scenario>
+    <scenario name="ConstructionObstacle_2" type="ConstructionObstacle" town="Town12">
+        <ego_vehicle x="-119.5" y="5505.3" z="370" yaw="66" model="vehicle.lincoln.mkz_2017"/>
+    </scenario>
+    <scenario name="ConstructionObstacle_3" type="ConstructionObstacle" town="Town12">
+        <ego_vehicle x="276.9" y="6197.2" z="358.4" yaw="144.8" model="vehicle.lincoln.mkz_2017"/>
+        <distance value="150"/>
+        <speed value="50"/>
+    </scenario>
+    <scenario name="ConstructionObstacle_4" type="ConstructionObstacle" town="Town12">
+        <ego_vehicle x="-28.5" y="4291.3" z="372.5" yaw="179.7" model="vehicle.lincoln.mkz_2017"/>
+    </scenario>
+    <scenario name="ConstructionObstacleTwoWays_1" type="ConstructionObstacleTwoWays" town="Town12">
+        <ego_vehicle x="-68.8" y="6101.0" z="358" yaw="179" model="vehicle.lincoln.mkz_2017"/>
+        <distance value="100"/>
+        <frequency from="35" to="110"/>
+    </scenario>
+    <scenario name="ConstructionObstacleTwoWays_2" type="ConstructionObstacleTwoWays" town="Town12">
+        <ego_vehicle x="-119.5" y="5505.3" z="370" yaw="66" model="vehicle.lincoln.mkz_2017"/>
+    </scenario>
+    <scenario name="ConstructionObstacleTwoWays_3" type="ConstructionObstacleTwoWays" town="Town12">
+        <ego_vehicle x="2549.4" y="3720.3" z="355.5" yaw="9.3" model="vehicle.lincoln.mkz_2017"/>
+        <frequency from="45" to="115"/>
+    </scenario>
+</scenarios>
