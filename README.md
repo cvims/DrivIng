@@ -1,7 +1,7 @@
 # DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration
 
 <p align="center">
-  <a href="https://www.arxiv.org/abs/TODO" target="_blank">
+  <a href="https://arxiv.org/abs/2601.15260" target="_blank">
     <img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv" alt="arXiv">
   </a>
   <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VBZKDY" target="_blank">
@@ -186,5 +186,13 @@ Please check out [CARLA scripts README](CARLA_scripts/README.md) to learn more a
 ## 📖 Citation
 If you use DrivIng in your research, please cite:
 ```bibtex
-TODO
+@misc{roessle2026drivinglargescalemultimodaldriving,
+      title={DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration}, 
+      author={Dominik Rößle and Xujun Xie and Adithya Mohan and Venkatesh Thirugnana Sambandham and Daniel Cremers and Torsten Schön},
+      year={2026},
+      eprint={2601.15260},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.15260}, 
+}
 ```
