@@ -49,10 +49,14 @@ class CarlaReplaySimulator:
             client_timeout: Timeout for client operations (seconds)
             tick_rate: Simulation frequency (Hz)
             dataset_root: Path to annotations.json
-            timesync_file: Path to timesync_info.csv
-            vehicle_state_dir: Directory containing vehicle_state JSON files
             output_dir: Directory to save output data
             skip_tracks: List of track IDs to skip
+            save_depth: Whether to save depth maps
+            save_semantic: Whether to save semantic maps
+            start_timestamp: Starting timestamp or frame index. -1 for beginning.
+            total_frames: Total number of frames to process. default is 200.
+            debug: If True, print debug information
+            initial_offset: carla.Vector3D offset to apply to all positions. default is None.
         """
         # Configuration
         self.host = 'localhost'
@@ -121,6 +125,8 @@ class CarlaReplaySimulator:
             bp_filter = random.choice(CARLA_VEHICLE_TYPES)
         elif "Truck" == obj_type:
             bp_filter = "vehicle.carlamotors.european_hgv"
+        elif "Bus" == obj_type:
+            bp_filter = "vehicle.mitsubishi.fusorosa"
         elif "Van" == obj_type:
             bp_filter = "vehicle.mercedes.sprinter"
         elif "Pedestrian" in obj_type:
