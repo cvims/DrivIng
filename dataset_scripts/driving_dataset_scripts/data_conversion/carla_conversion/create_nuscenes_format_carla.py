@@ -859,7 +859,7 @@ def rotation_matrix2nuscenes_quaternion(R):
 
 def main():
     parser = argparse.ArgumentParser(description='Convert DRIVING dataset to NuScenes format')
-    parser.add_argument('--dataset_root', type=str, default="/home/xujun/DrivIng_carla",
+    parser.add_argument('--dataset_root', type=str,
                         help='Root directory of the dataset')
     parser.add_argument("--split_name", type=str, default="v1_train_val.json",)
     parser.add_argument("--num_workers", type=int, default=32,)

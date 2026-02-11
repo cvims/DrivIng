@@ -7,7 +7,8 @@ NUM_WORKERS=32
 echo "creating train val split: $SPLIT_NAME"
 python carla_conversion/split_train_val.py \
     --dataset_root $DATASET_ROOT \
-    --split_name $SPLIT_NAME
+    --split_name $SPLIT_NAME \
+    --val_routes 2 3
 
 echo "converting carla dataset to driving format"
 python carla_conversion/convert_carla2driving.py \

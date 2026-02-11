@@ -83,16 +83,18 @@ def generate_train_val_split(data_dirs, save_path, val_routes):
 # main function
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_root', type=str, default="/home/xujun/DrivIng_carla",
+    parser.add_argument('--dataset_root', type=str,
                        help='Root directory of the dataset')
     parser.add_argument("--split_name", type=str, default="v1_train_val.json",)
+    parser.add_argument("--val_routes", type=int, nargs='+', default=[2, 3],
+                       help="List of route IDs to use for validation (space separated)")
     args = parser.parse_args()
     
     dataset_root = args.dataset_root
     result_dir = f"{dataset_root}/results/expert_traj"
     data_dir = f"{dataset_root}/data"
     save_path = f"{dataset_root}/splits/{args.split_name}"
-    val_routes = {0, 1, 2, 3}  # Example validation routes
+    val_routes = args.val_routes
     
 
     data_dirs = load_data_dirs(data_dir)
